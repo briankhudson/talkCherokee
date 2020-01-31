@@ -1,0 +1,521 @@
+#!/bin/bash
+
+# Syllabary transliterated into sounds
+
+#while do loop parses $char one character at a time
+
+while IFS= read -r -n1 char; do
+    eval "N$X=\$char"
+    X=`expr $X + 1`
+
+if [[ $char == $(echo -e '\u13A0') ]]; then
+ command say "aw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A1') ]]; then
+ command say "ay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A2') ]]; then
+ command say "ee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A3') ]]; then
+ command say "oh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A4') ]]; then
+ command say "oo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A5') ]]; then
+ command say "uh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A6') ]]; then
+ command say "gaw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A7') ]]; then
+ command say "kaw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A8') ]]; then
+ command say "gay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13A9') ]]; then
+ command say "gee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13AA') ]]; then
+ command say "goh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13AB') ]]; then
+ command say "goo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13AC') ]]; then
+ command say "guh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13AD') ]]; then
+ command say "haw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13AE') ]]; then
+ command say "hay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13AF') ]]; then
+ command say "hee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B0') ]]; then
+ command say "hoh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B1') ]]; then
+ command say "hoo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B2') ]]; then
+ command say "huh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B3') ]]; then
+ command say "law"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B4') ]]; then
+ command say "lay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B5') ]]; then
+ command say "lee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B6') ]]; then
+ command say "loh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B7') ]]; then
+ command say "loo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B8') ]]; then
+ command say "luh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13B9') ]]; then
+ command say "maw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13BA') ]]; then
+ command say "may"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13BB') ]]; then
+ command say "mee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13BC') ]]; then
+ command say "moh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13BD') ]]; then
+ command say "moo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13BE') ]]; then
+ command say "na"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13BF') ]]; then
+ command say "hunaw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C0') ]]; then
+ command say "naw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C1') ]]; then
+ command say "nay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C2') ]]; then
+ command say "nee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C3') ]]; then
+ command say "noh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C4') ]]; then
+ command say "noo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C5') ]]; then
+ command say "nuh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C6') ]]; then
+ command say "kwaw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C7') ]]; then
+ command say "kway"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C8') ]]; then
+ command say "kwee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13C9') ]]; then
+ command say "kwoh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13CA') ]]; then
+ command say "kwoo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13CB') ]]; then
+ command say "kwuh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13CC') ]]; then
+ command say "saw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13CD') ]]; then
+ command say "s"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13CE') ]]; then
+ command say "say"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13CF') ]]; then
+ command say "see"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D0') ]]; then
+ command say "soh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D1') ]]; then
+ command say "soo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D2') ]]; then
+ command say "suh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D3') ]]; then
+ command say "daw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D4') ]]; then
+ command say "taw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D5') ]]; then
+ command say "day"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D6') ]]; then
+ command say "tay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D7') ]]; then
+ command say "dee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D8') ]]; then
+ command say "tee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13D9') ]]; then
+ command say "doh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13DA') ]]; then
+ command say "doo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13DB') ]]; then
+ command say "duh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13DC') ]]; then
+ command say "dlaw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13DD') ]]; then
+ command say "dlaw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13DE') ]]; then
+ command say "dlay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13DF') ]]; then
+ command say "dlee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E0') ]]; then
+ command say "dloh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E1') ]]; then
+ command say "dloo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E2') ]]; then
+ command say "dluh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E3') ]]; then
+ command say "jaw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E4') ]]; then
+ command say "jay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E5') ]]; then
+ command say "jee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E6') ]]; then
+ command say "joh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E7') ]]; then
+ command say "joo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E8') ]]; then
+ command say "juh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13E9') ]]; then
+ command say "waw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13EA') ]]; then
+ command say "way"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13EB') ]]; then
+ command say "wee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13EC') ]]; then
+ command say "woh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13ED') ]]; then
+ command say "woo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13EE') ]]; then
+ command say "wuh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13EF') ]]; then
+ command say "yaw"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13F0') ]]; then
+ command say "yay"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13F1') ]]; then
+ command say "yee"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13F2') ]]; then
+ command say "yoh"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13F3') ]]; then
+ command say "yoo"
+ else
+ :
+fi
+
+if [[ $char == $(echo -e '\u13F4') ]]; then
+ command say "yuh"
+ else
+ :
+fi
+
+done <<< $1
